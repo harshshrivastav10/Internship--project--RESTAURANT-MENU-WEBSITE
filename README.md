@@ -1,4 +1,3 @@
-https://harshshrivastav10.github.io/Internship--project--RESTAURANT-MENU-WEBSITE/
 
 
 # Internship--project--RESTAURANT-MENU-WEBSITE
