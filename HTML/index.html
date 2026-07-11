@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LocalBites Restaurant</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="navbar" id="navbar">
+    <div class="brand">
+        <img src="logo.webp" alt="Logo" />
+        <span>MasterChef</span>
+    </div>
+    <nav id="nav-menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</header>
+
+<!-- Hero -->
+<section id="home" class="hero" style="background-image:url('background.jpeg')">
+    <div class="hero-content">
+        <h1>Fresh Food, Happy Mood</h1>
+        <p>Serving delicious meals every day</p>
+        <a href="#menu" class="btn">Explore Menu</a>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>We are a local family‑run restaurant focused on fresh ingredients and great taste.</p>
+</section>
+
+<!-- Menu -->
+<section id="menu" class="section">
+    <h2>Our Special Menu</h2>
+    <div class="menu-items">
+        <div class="card">
+            <img src="burger.jpeg" />
+            <h3>Burger</h3>
+            <p>Juicy grilled burger</p>
+            <span>₹199</span>
+        </div>
+        <div class="card">
+            <img src="thali.jpeg" />
+            <h3>Veg Thali</h3>
+            <p>Complete Indian meal</p>
+            <span>₹249</span>
+        </div>
+        <div class="card">
+            <img src="cold cofee.jpeg" />
+            <h3>Cold Coffee</h3>
+            <p>Refreshing & chilled</p>
+            <span>₹129</span>
+        </div>
+    </div>
+</section>
+
+<!-- Gallery -->
+<section id="gallery" class="section gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+        <img src="burger.jpeg" />
+        <img src="thali.jpeg" />
+        <img src="cold cofee.jpeg" />
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section contact">
+    <h2>Get in Touch</h2>
+    <p class="contact-sub">We'd love to hear from you. Fill out the form below.</p>
+
+    <div class="contact-wrapper">
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>📍 123 Market Street, Allahabad</p>
+            <p>📞 +91 99999 99999</p>
+            <p>✉️ support@MasterChef.com</p>
+        </div>
+
+        <!-- Contact Form -->
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                <input id="name" required />
+                <label>Name</label>
+            </div>
+            <div class="form-group">
+                <input id="email" type="email" required />
+                <label>Email</label>
+            </div>
+            <div class="form-group">
+                <textarea id="message" rows="4" required></textarea>
+                <label>Message</label>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+            <p id="formMessage"></p>
+        </form>
+    </div>
+</section>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/919999999999" class="whatsapp" target="_blank">💬</a>
+
+<footer class="footer">
+    <p>© 2025 MasterChef Restaurant</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
